@@ -2,7 +2,7 @@ from csv import DictReader
 from pprint import pprint
 
 
-def main(csv_file: str):    # Функция чтения из CSV-файла
+def main(csv_file: str) -> 'dict_table'':   # Функция чтения из CSV-файла
 
     try:
         dict_table = {}     # Создаем пустой словарь для последующей записи в него таблицы судов из файла
